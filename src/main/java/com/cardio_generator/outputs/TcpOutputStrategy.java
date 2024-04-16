@@ -11,7 +11,8 @@ public class TcpOutputStrategy implements OutputStrategy {
     private ServerSocket serverSocket;
     private Socket clientSocket;
     private PrintWriter out;
-
+    // Initializes a new TCP server on the specified port. connects client with server
+    //@param port is the port number
     public TcpOutputStrategy(int port) {
         try {
             serverSocket = new ServerSocket(port);
@@ -31,7 +32,9 @@ public class TcpOutputStrategy implements OutputStrategy {
             e.printStackTrace();
         }
     }
-
+    //method sends the requested data
+    //@param pateintID selects patient, @param timestamp records the time of transmission
+    //@param label describes the data @param data is the selected data
     @Override
     public void output(int patientId, long timestamp, String label, String data) {
         if (out != null) {
