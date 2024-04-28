@@ -1,0 +1,8 @@
+Patient Data and Alert Thresholds:
+Each patient in the ward has a digital profile in a Cardiovascular Health Monitoring System (CHMS). This profile contains personalized thresholds for various vital signs based on the patient’s unique medical history and condition. These thresholds represent critical values beyond which medical attention is needed. For example, a patient might have a heart rate threshold set at 130 beats per minute, while another might have a low blood pressure threshold set at 90/60 mm Hg.
+AlertGenerator:
+The AlertGenerator is a class responsible for continuously receiving and processing data streams from medical devices like heart rate monitors and blood pressure cuffs. As it receives this data, it compares the readings against each patient's individualized thresholds. This processing occurs in real-time to ensure immediate response to any irregularities.
+Alert:
+If a vital sign crosses a patient's alert threshold, the AlertGenerator creates an Alert object. This object contains relevant information such as the type of alert (e.g., heart rate or blood pressure), the patient's identity, the critical value, and the time it occurred.
+AlertManager:
+Once an Alert object is created, it's managed by the AlertManager. This class is responsible for distributing the alert to the appropriate medical personnel. It ensures that alerts are delivered promptly to staff through mobile devices, workstations, or other communication systems. The AlertManager coordinates the handling and prioritization of alerts to maintain patient safety and efficient clinical response.
