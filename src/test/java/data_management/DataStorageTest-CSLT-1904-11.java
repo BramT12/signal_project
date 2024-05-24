@@ -13,7 +13,7 @@ class DataStorageTest {
     @Test
     void testAddAndGetRecords() {
         // DataReader reader
-        DataStorage storage = new DataStorage();
+        DataStorage storage = new DataStorage(reader);
         storage.addPatientData(1, 100.0, "WhiteBloodCells", 1928347839207L);
         storage.addPatientData(1, 200.0, "WhiteBloodCells", 1928347839208L);
 

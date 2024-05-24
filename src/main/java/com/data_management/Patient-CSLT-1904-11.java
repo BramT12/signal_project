@@ -60,11 +60,4 @@ public class Patient {
         }
         return records;
     }
-    public List<PatientRecord> getAllPatientRecords() {
-        return new ArrayList<>(this.patientRecords);
-    }
-
-    public int getPatientId() {
-        return patientId;
-    }
 }
