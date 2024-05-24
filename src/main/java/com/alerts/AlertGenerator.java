@@ -177,8 +177,8 @@ public class AlertGenerator {
         }
 
         for (long time : timestamps) {
-            boolean systolicAlert;
-            boolean saturationAlert;
+            boolean systolicAlert=false;
+            boolean saturationAlert=false;
 
             for (PatientRecord record : records) {
                 if (record.getTimestamp() == time) {

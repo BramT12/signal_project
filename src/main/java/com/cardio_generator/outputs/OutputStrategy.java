@@ -1,3 +1,5 @@
+package com.cardio_generator.outputs;
+
 /**
  * The OutputStrategy interface defines a contract for classes that provide output strategies for health data simulation.
  * Implementations of this interface handle the output of simulated health data for a given patient.
