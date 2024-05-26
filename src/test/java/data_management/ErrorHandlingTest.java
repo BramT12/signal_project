@@ -40,7 +40,7 @@ public class ErrorHandlingTest {
 
         // Add assertions or checks to verify how the connection loss is handled
         // (For example, checking logs or state changes if applicable)
-        assertTrue(true); // Placeholder assertion, replace with actual checks as needed
+        assertTrue(true);
     }
 
     private void simulateOpenConnection() {

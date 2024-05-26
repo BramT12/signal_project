@@ -60,6 +60,7 @@ public class Patient {
         }
         return records;
     }
+    //we didnt understand the first method
     public List<PatientRecord> getAllPatientRecords() {
         return new ArrayList<>(this.patientRecords);
     }

@@ -43,16 +43,14 @@ public class IntegrationTest {
             alertGenerator.evaluatePatientData(patient);
         }
 
-        // Additional assertions can be made to check specific alerts if needed
+        // first check
         List<PatientRecord> records = dataStorage.getRecords(1, 1700000000000L, 1800000000000L);
         assertEquals(4, records.size(), "Should contain 4 records for patient 1");
 
         Patient patient = dataStorage.getAllPatients().get(0);
         assertNotNull(patient, "Patient should not be null");
 
-        // Specific checks for the generated alerts based on the logic in AlertGenerator
-        // For simplicity, here we print to console or log for manual verification.
-        // In a real scenario, you might want to capture and assert alert messages.
+
     }
 }
 

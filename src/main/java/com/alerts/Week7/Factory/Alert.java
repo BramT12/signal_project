@@ -1,4 +1,4 @@
-package Week7.Factory;
+package com.alerts.Week7.Factory;
 public abstract class Alert {
     protected String patientId;
     protected String condition;

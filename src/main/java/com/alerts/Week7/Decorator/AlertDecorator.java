@@ -1,4 +1,4 @@
-package Week7.Decorator;
+package com.alerts.Week7.Decorator;
 
 public abstract class AlertDecorator extends Alert {
     protected Alert decoratedAlert;

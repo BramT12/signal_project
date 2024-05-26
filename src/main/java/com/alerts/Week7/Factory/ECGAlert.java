@@ -1,4 +1,4 @@
-package Week7.Factory;
+package com.alerts.Week7.Factory;
 
 public class ECGAlert extends Alert {
     public ECGAlert(String patientId, String condition, long timestamp) {

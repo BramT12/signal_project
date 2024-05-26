@@ -1,4 +1,4 @@
-package Week7.Strategy;
+package com.alerts.Week7.Strategy;
 
 import java.util.Map;
 

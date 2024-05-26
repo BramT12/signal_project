@@ -1,4 +1,4 @@
-package Week7.Singleton;
+package com.alerts.Week7.Singleton;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package Week7.Factory;
+package com.alerts.Week7.Factory;
 
 public class BloodOxygenAlert extends Alert {
     public BloodOxygenAlert(String patientId, String condition, long timestamp) {

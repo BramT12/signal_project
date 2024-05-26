@@ -1,4 +1,4 @@
-package Week7.Factory;
+package com.alerts.Week7.Factory;
 
 public class BloodPressureAlert extends Alert {
     public BloodPressureAlert(String patientId, String condition, long timestamp) {

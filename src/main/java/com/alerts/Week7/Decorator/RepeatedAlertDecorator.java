@@ -1,4 +1,4 @@
-package Week7.Decorator;
+package com.alerts.Week7.Decorator;
 
 public class RepeatedAlertDecorator extends AlertDecorator {
     public RepeatedAlertDecorator(Alert decoratedAlert) {
