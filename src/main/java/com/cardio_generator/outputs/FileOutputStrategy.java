@@ -1,3 +1,5 @@
+package com.cardio_generator.outputs;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.nio.file.Files;

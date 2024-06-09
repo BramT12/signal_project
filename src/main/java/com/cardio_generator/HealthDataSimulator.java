@@ -1,3 +1,5 @@
+package com.cardio_generator;
+
 /**
  * The HealthDataSimulator class simulates health data for multiple patients.
  * It allows users to specify the number of patients and the output method for the simulated data.
